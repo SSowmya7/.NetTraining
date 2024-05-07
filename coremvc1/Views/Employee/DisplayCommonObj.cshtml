@@ -1,0 +1,21 @@
+﻿@model coremvc1.Models.Common;
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<h1>Employees list </h1>
+@foreach(var employe in Model.EmployeesList)
+{
+    <li>
+        @employe.Name
+    </li>
+}
+<h2> Course List </h2>
+@foreach(var course in Model.CourseList)
+{
+    <li>
+        @course.CourseName
+    </li>
+}
