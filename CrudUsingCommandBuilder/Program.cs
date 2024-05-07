@@ -1,0 +1,20 @@
+﻿using System;
+using System.Data;
+using System.Data.SqlClient;
+
+
+namespace CrudUsingCommandBuilder
+{
+
+
+
+    class Program
+    {
+        static void Main()
+        {
+            ShowMenu showMenu = new ShowMenu();
+            showMenu.Menu();
+
+        }
+    }
+}
