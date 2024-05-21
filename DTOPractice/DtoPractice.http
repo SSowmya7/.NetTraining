@@ -1,0 +1,6 @@
+@DtoPractice_HostAddress = http://localhost:5037
+
+GET {{DtoPractice_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
